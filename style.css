@@ -8,5 +8,9 @@ body{
     text-align: center;
     color:#fff !important;
     vertical-align: middle;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Raleway', sans-serif !important;
+}
+body a{
+    text-decoration:none;
+    color:#ffffff !important;
 }
