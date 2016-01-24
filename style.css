@@ -1,7 +1,8 @@
 @import url(https://fonts.googleapis.com/css?family=Raleway);
 
 body{
-    background:url(bg.jpg) no-repeat;
+    background:url(bg.jpg);
+    background-repeat:no-repeat;
     background-size:cover;
     text-transform: uppercase;
     text-align: center;
