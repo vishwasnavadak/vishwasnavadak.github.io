@@ -6,7 +6,7 @@ body{
     background-size:cover;
     text-transform: uppercase;
     text-align: center;
-    color:#fff;
+    color:#fff !important;
     vertical-align: middle;
     font-family: 'Raleway', sans-serif;
 }
