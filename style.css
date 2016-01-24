@@ -1,0 +1,9 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway);
+
+body{
+    background-color: #000000;
+    text-transform: uppercase;
+    text-align: center;
+    color:#fff;
+    font-family: 'Raleway', sans-serif;
+}
