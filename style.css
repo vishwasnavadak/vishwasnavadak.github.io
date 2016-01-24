@@ -3,6 +3,7 @@
 body{
     background:url(bg.jpg) fixed;
     background-repeat:no-repeat;
+    background-size:cover;
     text-transform: uppercase;
     text-align: center;
     color:#fff !important;
