@@ -15,7 +15,7 @@ body a{
     text-decoration:none;
     color:#ffffff !important;
 }
-blinking-cursor {
+.blinking-cursor {
   font-weight: 100;
   font-size: 30px;
   color: #2E3D48;
