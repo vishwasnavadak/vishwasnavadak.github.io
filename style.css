@@ -16,6 +16,7 @@ body a{
     color:#ffffff !important;
 }
 .blinking-cursor {
+  color:#fff;  
   -webkit-animation: 1s blink step-end infinite;
   -moz-animation: 1s blink step-end infinite;
   -ms-animation: 1s blink step-end infinite;
