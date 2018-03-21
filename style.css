@@ -16,7 +16,8 @@ body a{
     color:#ffffff !important;
 }
 .body-content {
-    text-transform: initial !important;   
+    text-transform: initial !important;
+    font-size: 1.4em;
 }
 .blinking-cursor {
   color:#fff !important;
