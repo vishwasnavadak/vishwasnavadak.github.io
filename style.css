@@ -16,7 +16,7 @@ body a{
     color:#ffffff !important;
 }
 .body-content {
-    text-transform: capitalize !important;   
+    text-transform: initial !important;   
 }
 .blinking-cursor {
   color:#fff !important;
