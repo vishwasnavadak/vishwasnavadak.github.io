@@ -15,6 +15,9 @@ body a{
     text-decoration:none;
     color:#ffffff !important;
 }
+.body-content {
+    text-transform: capitalize !important;   
+}
 .blinking-cursor {
   color:#fff !important;
   -webkit-animation: 1s blink step-end infinite;
