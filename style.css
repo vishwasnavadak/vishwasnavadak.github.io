@@ -27,7 +27,37 @@ body a{
   -o-animation: 1s blink step-end infinite;
   animation: 1s blink step-end infinite;
 }
+.skill-row {
+	
+}
 
+.skill-col {
+	padding:15px;
+}
+
+.skill-bar {
+	background-color:#68768A !important;
+	border:none;
+}
+.skill-content {
+	text-transform: initial !important;
+    font-size: 0.95em;
+}
+.skill-desc {
+	color:#bbbbbb;
+	-webkit-transition-property: color; /* Safari */
+    -webkit-transition-duration: 0.5s; /* Safari */
+    -o-transition-property: color;
+    -o-transition-duration: 0.5s;
+	transition-property: color;
+    transition-duration: 0.5s;
+}
+
+.skill-desc:hover {
+	color:#ffffff;
+	font-weight:bold;
+	text-decoration:underline;
+}
 @keyframes "blink" {
   from, to {
     color: transparent;
