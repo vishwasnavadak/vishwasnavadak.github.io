@@ -102,4 +102,16 @@ body a{
     color: white;
   }
 }
+@media (max-width:320px)  {
+	body{
+		background-image:none;
+		background-color:#34353c !important;
+	}
+}
+@media (max-width:480px)  {
+	body{
+		background-image:none;
+		background-color:#34353c !important;		
+	}
+}
 
