@@ -115,3 +115,9 @@ body a{
 	}
 }
 
+@media (max-width:600px)  {
+	body{
+		background-image:none;
+		background-color:#34353c !important;		
+	}
+}
