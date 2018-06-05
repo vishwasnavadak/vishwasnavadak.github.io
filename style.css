@@ -19,6 +19,10 @@ body a{
     text-transform: initial !important;
     font-size: 1.4em;
 }
+.footer {
+    text-transform: initial !important;
+    font-size: 0.9em;
+}
 .blinking-cursor {
   color:#fff !important;
   -webkit-animation: 1s blink step-end infinite;
@@ -57,6 +61,15 @@ body a{
 	color:#ffffff;
 	font-weight:bold;
 	text-decoration:underline;
+}
+
+hr.separator { 
+	width:80%;
+	border: 0; 
+	height: 1px; 
+	margin-top: 10px !important; 
+	margin-bottom: 10px !important;
+	background-color: rgba(162, 156, 156, 0.58);
 }
 @keyframes "blink" {
   from, to {
