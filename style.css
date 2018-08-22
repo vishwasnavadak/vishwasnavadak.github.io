@@ -34,13 +34,18 @@ body a{
 .skill-row {
 	
 }
-
+/* override default bootstrap progress bar styles */
+.skill-progress {
+	height: 12px !important;
+	background-color: rgba(212, 192, 192, 0.32) !important;
+	margin-bottom: 8px  !important;
+}
 .skill-col {
 	padding:15px;
 }
 
 .skill-bar {
-	background-color:#68768A !important;
+	background-color:#ffffff !important;
 	border:none;
 }
 .skill-content {
