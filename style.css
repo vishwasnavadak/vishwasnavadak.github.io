@@ -1,10 +1,7 @@
 @import url(https://fonts.googleapis.com/css?family=Raleway);
 
 body{
-    background:url(img/bg.jpg) fixed;
-    background-repeat:no-repeat;
-    background-size:cover;
-    text-transform: uppercase;
+    background:#1f2125 !important;
     text-align: center;
     color:#fff !important;
     vertical-align: middle;
@@ -50,7 +47,7 @@ body a{
 }
 .skill-content {
 	text-transform: initial !important;
-    font-size: 0.95em;
+    font-size: 1em;
 }
 .skill-desc {
 	color:#bbbbbb;
@@ -76,6 +73,69 @@ hr.separator {
 	margin-bottom: 10px !important;
 	background-color: rgba(162, 156, 156, 0.58);
 }
+
+#mainNav {
+  position: absolute;
+  background-color: white;
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+  #mainNav .navbar-nav > li.nav-item > a {
+    padding: 10px 20px;
+    color: rgb(0, 0, 0) !important; }
+    #mainNav .navbar-nav > li.nav-item > a:focus, #mainNav .navbar-nav > li.nav-item > a:hover {
+      color: rgba(0, 0, 0, 0.8) !important; }
+  #mainNav .navbar-brand {
+    font-weight: 800;
+    color: #343a40 !important; }
+  #mainNav .navbar-toggler {
+    font-size: 12px;
+    font-weight: 800;
+    padding: 13px;
+    text-transform: uppercase;
+    color: #343a40 !important; }
+  #mainNav .navbar-nav > li.nav-item > a {
+    font-size: 12px;
+    font-weight: 800;
+    letter-spacing: 1px;
+    text-transform: uppercase; }
+  @media only screen and (min-width: 992px) {
+    #mainNav {
+      border-bottom: 1px solid transparent;
+      background: #343a40; }
+
+      #mainNav .navbar-brand {
+        padding: 10px 20px;
+        color: #fff !important; }
+        #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
+          color: rgba(255, 255, 255, 0.8) !important; }
+      #mainNav .navbar-nav > li.nav-item > a {
+        padding: 10px 20px;
+        color: rgb(204, 204, 204) !important; }
+        #mainNav .navbar-nav > li.nav-item > a:focus, #mainNav .navbar-nav > li.nav-item > a:hover {
+          color: rgba(255, 255, 255, 0.8) !important; } }
+  @media only screen and (min-width: 992px) {
+    #mainNav {
+      -webkit-transition: background-color 0.2s;
+      -moz-transition: background-color 0.2s;
+      transition: background-color 0.2s;
+      /* Force Hardware Acceleration in WebKit */
+      -webkit-transform: translate3d(0, 0, 0);
+      -moz-transform: translate3d(0, 0, 0);
+      -ms-transform: translate3d(0, 0, 0);
+      -o-transform: translate3d(0, 0, 0);
+      transform: translate3d(0, 0, 0);
+      -webkit-backface-visibility: hidden; }
+      #mainNav.is-fixed {
+        /* when the user scrolls down, we hide the header right above the viewport */
+        position: fixed;
+        top: -67px;
+        -webkit-transition: -webkit-transform 0.2s;
+        -moz-transition: -moz-transform 0.2s;
+        transition: transform 0.2s;
+        border-bottom: 1px solid white ;
+        }
+
+  }
+
 @keyframes "blink" {
   from, to {
     color: transparent;
@@ -123,19 +183,19 @@ hr.separator {
 @media (max-width:320px)  {
 	body{
 		background-image:none;
-		background-color:#34353c !important;
+		background-color:#1f2125 !important;
 	}
 }
 @media (max-width:480px)  {
 	body{
 		background-image:none;
-		background-color:#34353c !important;		
+		background-color:#1f2125 !important;		
 	}
 }
 
 @media (max-width:620px)  {
 	body{
 		background-image:none;
-		background-color:#34353c !important;		
+		background-color:#1f2125 !important;		
 	}
 }
