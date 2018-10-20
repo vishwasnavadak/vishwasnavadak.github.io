@@ -69,9 +69,8 @@ hr.separator {
 	width:80%;
 	border: 0; 
 	height: 1px; 
-	margin-top: 10px !important; 
-	margin-bottom: 10px !important;
-	background-color: rgba(162, 156, 156, 0.58);
+	margin-top: 15px 0px !important; 
+	background-color: rgba(162, 156, 156, 0.1);
 }
 
 #mainNav {
