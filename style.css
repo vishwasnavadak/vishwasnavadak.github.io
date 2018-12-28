@@ -11,10 +11,14 @@ body{
 body a{
     text-decoration:none;
     color:#ffffff !important;
+    cursor: pointer;
+}
+body > h1 {
+  font-size: 1.7em;
 }
 .body-content {
     text-transform: initial !important;
-    font-size: 1.4em;
+    font-size: 1.3em;
 }
 .footer {
     text-transform: initial !important;
@@ -28,9 +32,7 @@ body a{
   -o-animation: 1s blink step-end infinite;
   animation: 1s blink step-end infinite;
 }
-.skill-row {
-	
-}
+
 /* override default bootstrap progress bar styles */
 .skill-progress {
 	height: 12px !important;
@@ -46,8 +48,14 @@ body a{
 	border:none;
 }
 .skill-content {
+  display: none;
+}
+.skill-content , .skill-content-extra  {
 	text-transform: initial !important;
     font-size: 1em;
+}
+#detail-switch {
+  cursor: pointer;
 }
 .skill-desc {
 	color:#bbbbbb;
