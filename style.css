@@ -1,31 +1,31 @@
 @import url(https://fonts.googleapis.com/css?family=Raleway);
 
-body{
-    background:#1f2125 !important; 
-    text-align: center;
-    color:#fff !important;
-    vertical-align: middle;
-    font-family: 'Raleway', sans-serif !important;
-    height:100%;
+body {
+  background: #1f2125 !important;
+  text-align: center;
+  color: #fff !important;
+  vertical-align: middle;
+  font-family: "Raleway", sans-serif !important;
+  height: 100%;
 }
-body a{
-    text-decoration:none;
-    color:#ffffff !important;
-    cursor: pointer;
+body a {
+  text-decoration: none;
+  color: #ffffff !important;
+  cursor: pointer;
 }
 body > h1 {
   font-size: 1.7em;
 }
 .body-content {
-    text-transform: initial !important;
-    font-size: 1.3em;
+  text-transform: initial !important;
+  font-size: 1.3em;
 }
 .footer {
-    text-transform: initial !important;
-    font-size: 0.9em;
+  text-transform: initial !important;
+  font-size: 0.9em;
 }
 .blinking-cursor {
-  color:#fff !important;
+  color: #fff !important;
   -webkit-animation: 1s blink step-end infinite;
   -moz-animation: 1s blink step-end infinite;
   -ms-animation: 1s blink step-end infinite;
@@ -35,116 +35,131 @@ body > h1 {
 
 /* override default bootstrap progress bar styles */
 .skill-progress {
-	height: 12px !important;
-	background-color: rgba(212, 192, 192, 0.32) !important;
-	margin-bottom: 8px  !important;
+  height: 12px !important;
+  background-color: rgba(212, 192, 192, 0.32) !important;
+  margin-bottom: 8px !important;
 }
 .skill-col {
-	padding:15px;
+  padding: 15px;
 }
 
 .skill-bar {
-	background-color:#ffffff !important;
-	border:none;
+  background-color: #ffffff !important;
+  border: none;
 }
 .skill-content {
   display: none;
 }
-.skill-content , .skill-content-extra  {
-	text-transform: initial !important;
-    font-size: 1em;
+.skill-content,
+.skill-content-extra {
+  text-transform: initial !important;
+  font-size: 1em;
 }
 #detail-switch {
   cursor: pointer;
 }
 .skill-desc {
-	color:#bbbbbb;
-	-webkit-transition-property: color; /* Safari */
-    -webkit-transition-duration: 0.5s; /* Safari */
-    -o-transition-property: color;
-    -o-transition-duration: 0.5s;
-	transition-property: color;
-    transition-duration: 0.5s;
+  color: #bbbbbb;
+  -webkit-transition-property: color; /* Safari */
+  -webkit-transition-duration: 0.5s; /* Safari */
+  -o-transition-property: color;
+  -o-transition-duration: 0.5s;
+  transition-property: color;
+  transition-duration: 0.5s;
 }
 
 .skill-desc:hover {
-	color:#ffffff;
-	font-weight:bold;
-	text-decoration:underline;
+  color: #ffffff;
+  font-weight: bold;
+  text-decoration: underline;
 }
 
-hr.separator { 
-	width:80%;
-	border: 0; 
-	height: 1px; 
-	margin-top: 15px 0px !important; 
-	background-color: rgba(162, 156, 156, 0.1);
+hr.separator {
+  width: 80%;
+  border: 0;
+  height: 1px;
+  margin-top: 15px 0px !important;
+  background-color: rgba(162, 156, 156, 0.1);
 }
 
 #mainNav {
-  position: absolute;
+  /* position: absolute; */
   background-color: white;
-  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
-  #mainNav .navbar-nav > li.nav-item > a {
-    padding: 10px 20px;
-    color: rgb(0, 0, 0) !important; }
-    #mainNav .navbar-nav > li.nav-item > a:focus, #mainNav .navbar-nav > li.nav-item > a:hover {
-      color: rgba(0, 0, 0, 0.8) !important; }
-  #mainNav .navbar-brand {
-    font-weight: 800;
-    color: #343a40 !important; }
-  #mainNav .navbar-toggler {
-    font-size: 12px;
-    font-weight: 800;
-    padding: 13px;
-    text-transform: uppercase;
-    color: #343a40 !important; }
-  #mainNav .navbar-nav > li.nav-item > a {
-    font-size: 12px;
-    font-weight: 800;
-    letter-spacing: 1px;
-    text-transform: uppercase; }
-  @media only screen and (min-width: 992px) {
-    #mainNav {
-      border-bottom: 1px solid transparent;
-      background: #343a40; }
-
-      #mainNav .navbar-brand {
-        padding: 10px 20px;
-        color: #fff !important; }
-        #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
-          color: rgba(255, 255, 255, 0.8) !important; }
-      #mainNav .navbar-nav > li.nav-item > a {
-        padding: 10px 20px;
-        color: rgb(204, 204, 204) !important; }
-        #mainNav .navbar-nav > li.nav-item > a:focus, #mainNav .navbar-nav > li.nav-item > a:hover {
-          color: rgba(255, 255, 255, 0.8) !important; } }
-  @media only screen and (min-width: 992px) {
-    #mainNav {
-      -webkit-transition: background-color 0.2s;
-      -moz-transition: background-color 0.2s;
-      transition: background-color 0.2s;
-      /* Force Hardware Acceleration in WebKit */
-      -webkit-transform: translate3d(0, 0, 0);
-      -moz-transform: translate3d(0, 0, 0);
-      -ms-transform: translate3d(0, 0, 0);
-      -o-transform: translate3d(0, 0, 0);
-      transform: translate3d(0, 0, 0);
-      -webkit-backface-visibility: hidden; }
-      #mainNav.is-fixed {
-        /* when the user scrolls down, we hide the header right above the viewport */
-        position: fixed;
-        top: -67px;
-        -webkit-transition: -webkit-transform 0.2s;
-        -moz-transition: -moz-transform 0.2s;
-        transition: transform 0.2s;
-        border-bottom: 1px solid white ;
-        }
-
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+#mainNav .navbar-nav > li.nav-item > a {
+  padding: 10px 20px;
+  color: rgb(0, 0, 0) !important;
+}
+#mainNav .navbar-nav > li.nav-item > a:focus,
+#mainNav .navbar-nav > li.nav-item > a:hover {
+  color: rgba(0, 0, 0, 0.8) !important;
+}
+#mainNav .navbar-brand {
+  font-weight: 800;
+  color: #343a40 !important;
+}
+#mainNav .navbar-toggler {
+  font-size: 12px;
+  font-weight: 800;
+  padding: 13px;
+  text-transform: uppercase;
+  color: #343a40 !important;
+}
+#mainNav .navbar-nav > li.nav-item > a {
+  font-size: 12px;
+  font-weight: 800;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+@media only screen and (min-width: 992px) {
+  #mainNav {
+    border-bottom: 1px solid transparent;
+    background: #343a40;
   }
 
+  #mainNav .navbar-brand {
+    padding: 10px 20px;
+    color: #fff !important;
+  }
+  #mainNav .navbar-brand:focus,
+  #mainNav .navbar-brand:hover {
+    color: rgba(255, 255, 255, 0.8) !important;
+  }
+  #mainNav .navbar-nav > li.nav-item > a {
+    padding: 10px 20px;
+    color: rgb(204, 204, 204) !important;
+  }
+  #mainNav .navbar-nav > li.nav-item > a:focus,
+  #mainNav .navbar-nav > li.nav-item > a:hover {
+    color: rgba(255, 255, 255, 0.8) !important;
+  }
+}
+@media only screen and (min-width: 992px) {
+  #mainNav {
+    -webkit-transition: background-color 0.2s;
+    -moz-transition: background-color 0.2s;
+    transition: background-color 0.2s;
+    /* Force Hardware Acceleration in WebKit */
+    -webkit-transform: translate3d(0, 0, 0);
+    -moz-transform: translate3d(0, 0, 0);
+    -ms-transform: translate3d(0, 0, 0);
+    -o-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+    -webkit-backface-visibility: hidden;
+  }
+  #mainNav.is-fixed {
+    /* when the user scrolls down, we hide the header right above the viewport */
+    position: fixed;
+    -webkit-transition: -webkit-transform 0.2s;
+    -moz-transition: -moz-transform 0.2s;
+    transition: transform 0.2s;
+  }
+}
+
 @keyframes "blink" {
-  from, to {
+  from,
+  to {
     color: transparent;
   }
   50% {
@@ -153,7 +168,8 @@ hr.separator {
 }
 
 @-moz-keyframes blink {
-  from, to {
+  from,
+  to {
     color: transparent;
   }
   50% {
@@ -162,16 +178,8 @@ hr.separator {
 }
 
 @-webkit-keyframes "blink" {
-  from, to {
-    color: transparent;
-  }
-  50% {
-    color: white;
-  }
-}
-
-@-ms-keyframes "blink" {
-  from, to {
+  from,
+  to {
     color: transparent;
   }
   50% {
@@ -180,29 +188,11 @@ hr.separator {
 }
 
 @-o-keyframes "blink" {
-  from, to {
+  from,
+  to {
     color: transparent;
   }
   50% {
     color: white;
   }
-}
-@media (max-width:320px)  {
-	body{
-		background-image:none;
-		background-color:#1f2125 !important;
-	}
-}
-@media (max-width:480px)  {
-	body{
-		background-image:none;
-		background-color:#1f2125 !important;		
-	}
-}
-
-@media (max-width:620px)  {
-	body{
-		background-image:none;
-		background-color:#1f2125 !important;		
-	}
 }
