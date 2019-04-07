@@ -1,28 +1,43 @@
 @import url(https://fonts.googleapis.com/css?family=Raleway);
 
-body {
-  background: #1f2125 !important;
+#body {
+  width: 100vw;
+  margin: 0 auto;
+  background: #1f2125;
   text-align: center;
-  color: #fff !important;
+  color: #fff;
   vertical-align: middle;
-  font-family: "Raleway", sans-serif !important;
-  height: 100%;
+  font-family: "Raleway", sans-serif;
 }
-body a {
+#body a {
   text-decoration: none;
   color: #ffffff !important;
   cursor: pointer;
 }
-body > h1 {
-  font-size: 1.7em;
+#body h1 {
+  font-size: 1.9em;
 }
-.body-content {
-  text-transform: initial !important;
+#body h2 {
+  font-size: 1.5em;
+}
+#body h3 {
   font-size: 1.3em;
 }
-.footer {
-  text-transform: initial !important;
-  font-size: 0.9em;
+#body h4 {
+  font-size: 1.3em;
+}
+.body-container {
+  padding-top: 55px;
+}
+.intro-desc {
+  font-size: 1.3em;
+}
+footer {
+  font-size: 0.8em;
+}
+/* fix bootstrap margin  */
+.row {
+  margin: 0 auto !important;
 }
 .blinking-cursor {
   color: #fff !important;
@@ -32,13 +47,47 @@ body > h1 {
   -o-animation: 1s blink step-end infinite;
   animation: 1s blink step-end infinite;
 }
+@keyframes "blink" {
+  from,
+  to {
+    color: transparent;
+  }
+  50% {
+    color: white;
+  }
+}
+
+@-moz-keyframes blink {
+  from,
+  to {
+    color: transparent;
+  }
+  50% {
+    color: white;
+  }
+}
+
+@-webkit-keyframes "blink" {
+  from,
+  to {
+    color: transparent;
+  }
+  50% {
+    color: white;
+  }
+}
+
+@-o-keyframes "blink" {
+  from,
+  to {
+    color: transparent;
+  }
+  50% {
+    color: white;
+  }
+}
 
 /* override default bootstrap progress bar styles */
-.skill-progress {
-  height: 12px !important;
-  background-color: rgba(212, 192, 192, 0.32) !important;
-  margin-bottom: 8px !important;
-}
 .skill-col {
   padding: 15px;
 }
@@ -82,8 +131,8 @@ hr.separator {
   background-color: rgba(162, 156, 156, 0.1);
 }
 
+/* Nav CSS from jekyll-theme-clean-blog */
 #mainNav {
-  /* position: absolute; */
   background-color: white;
   font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
@@ -154,45 +203,5 @@ hr.separator {
     -webkit-transition: -webkit-transform 0.2s;
     -moz-transition: -moz-transform 0.2s;
     transition: transform 0.2s;
-  }
-}
-
-@keyframes "blink" {
-  from,
-  to {
-    color: transparent;
-  }
-  50% {
-    color: white;
-  }
-}
-
-@-moz-keyframes blink {
-  from,
-  to {
-    color: transparent;
-  }
-  50% {
-    color: white;
-  }
-}
-
-@-webkit-keyframes "blink" {
-  from,
-  to {
-    color: transparent;
-  }
-  50% {
-    color: white;
-  }
-}
-
-@-o-keyframes "blink" {
-  from,
-  to {
-    color: transparent;
-  }
-  50% {
-    color: white;
   }
 }
