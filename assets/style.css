@@ -39,10 +39,13 @@ website: https://vishwas.tech
   font-size: 1.5em;
 }
 #body h3 {
-  font-size: 1.3em;
+  font-size: 1.4em;
 }
 #body h4 {
   font-size: 1.3em;
+}
+#body p {
+  font-size: 1.1em;
 }
 footer {
   font-size: 0.8em;
@@ -67,7 +70,8 @@ section {
 }
 .social-icons a {
   color: var(--font-ternary);
-  padding: 5px 10px;
+  padding: 5px;
+  margin: 2px 5px;
 }
 .landing-section {
   color: var(--font-ternary);
@@ -79,13 +83,11 @@ section {
   justify-content: center;
 }
 .landing-overlay {
-  max-width: 95%;
-  padding: 15px 20px;
-  margin: 0 auto;
-  position: relative;
+  width: 95vw;
+  padding: 15px;
   background: var(--background-ternary);
 }
-.landing-overlay p {
+#intro {
   font-size: 1.3em;
 }
 /*------------ External CSS ------------*/
@@ -93,22 +95,19 @@ section {
 #mainNav {
   background-color: var(--background-nav);
   color: var(--font-primary);
+  font-size: 1em;
 }
 #mainNav .navbar-nav > li.nav-item > a {
   padding: 10px 20px;
   color: var(--font-primary);
 }
 #mainNav .navbar-toggler {
-  font-size: 12px;
-  font-weight: 800;
   padding: 13px;
   color: var(--font-primary);
   border-color: var(--font-secondary);
   text-transform: uppercase;
 }
 #mainNav .navbar-nav > li.nav-item > a {
-  font-size: 12px;
-  font-weight: 800;
   letter-spacing: 1px;
   text-transform: uppercase;
 }
