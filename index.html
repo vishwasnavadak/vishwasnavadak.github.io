@@ -26,206 +26,88 @@
 		<meta name="twitter:description" content="My portfolio page!" />
 		<meta name="twitter:image" content="https://vishwas.tech/img/vishwasnavadak.png" />
 
-		<link rel="apple-touch-icon" sizes="180x180" href="/assets/icons/assets/icons/apple-touch-icon.png">
 		<link rel="icon" type="image/png" sizes="32x32" href="/assets/icons/favicon-32x32.png">
 		<link rel="icon" type="image/png" sizes="16x16" href="/assets/icons/favicon-16x16.png">
-		<link rel="manifest" href="/site.webmanifest">
+		<link rel="manifest" href="/assets//site.webmanifest">
 		<link rel="mask-icon" href="/assets/icons/safari-pinned-tab.svg" color="#444444">
-		<link rel="stylesheet" href="style.css">
-		<link rel="stylesheet" href="assets/vendor/bootstrap/css/bootstrap.min.css">
-		<link rel="stylesheet" href="assets/vendor/font-awesome/css/font-awesome.min.css">
+		<link rel="stylesheet" href="/assets/style.css">
+		<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet"
+			integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+		<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
+			integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 	</head>
 
 	<body id="body">
 		<!-- Navigation -->
-		<nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
-			<div class="container">
-				<button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
-					data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
-					aria-label="Toggle navigation">
-					Menu
-					<i class="fa fa-bars"></i>
-				</button>
-				<div class="collapse navbar-collapse" id="navbarResponsive">
-					<ul class="navbar-nav ml-auto">
-						<li class="nav-item">
-							<a class="nav-link" href="http://vishwas.tech">Home</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="/blog/">I'm trying to write stuff</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="/blog/photos" target="_blank" rel="noreferrer noopener">I Take
-								Photos</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="/blog/videos" target="_blank" rel="noreferrer noopener">Videos?
-								Maybe.</a>
-						</li>
-					</ul>
-					</ul>
-				</div>
+		<nav class="navbar navbar-expand-sm navbar-dark fixed-top" id="mainNav">
+			<button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
+				data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
+				aria-label="Toggle navigation">
+				Menu
+				<i class="fa fa-bars"></i>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarResponsive">
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item">
+						<a class="nav-link" href="http://vishwas.tech">Home</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="/blog/">Blog</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="/blog/photos" target="_blank" rel="noreferrer noopener">Photos</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="/blog/videos" target="_blank" rel="noreferrer noopener">Videos</a>
+					</li>
+				</ul>
+				</ul>
 			</div>
 		</nav>
 		<div class="body-container">
-			<section>
-				<img src="/assets/img/vishwasnavadak.png" class="img-rounded" alt="Vishwas Navada K"
-					style="max-width:130px;">
-				<h1><strong> &gt; Vishwasa Navada K <span class="blinking-cursor">_</span></strong></h1>
-				<p class="intro-desc">Hi, I do WebDev and DataViz. I occasionally write on my blog and take very good
-					pictures.<br />
-					<strong><a href="/doc/resume.pdf" download>Download Resume</a></strong></p>
-			</section>
-			<hr class="separator" />
-
-			<section>
-				<h2 class="text-center"><u>Technical Skills</u></h2>
-				<p class="text-center"><span id="detail-switch">Show Details</span></p>
-				<div class="row skill-row">
-					<div class="col-sm-4 skill-col">
-						<h4>HTML/CSS</h4>
-
-						<p class="skill-content">
-							<a href="http://webception.in" target="_blank" rel="noreferrer noopener"><span
-									class="skill-desc">Customized HTML/CSS templates for WordPress and
-									Blogger,</span></a>
-							<span class="skill-desc">Developed Responsive UI for Web Applications with Twitter
-								Bootstrap,</span><br />
-							<a href="http://webception.in/a/projects" target="_blank" rel="noreferrer noopener"><span
-									class="skill-desc">Designed and Developed websites for local businesses and college
-									fests</span></a>
-						</p>
-					</div>
-					<div class="col-sm-4 skill-col">
-						<h4>JavaScript</h4>
-
-						<p class="skill-content">
-							<span class="skill-desc">Wrote client side validations for HTML forms,</span>
-							<span class="skill-desc">Developed simple asynchronous applications using AJAX,</span>
-							<a href="http://react-aws.vishwas.tech/" target="_blank" rel="noreferrer noopener"><span
-									class="skill-desc">Experimenting with React and Redux</span></a>
-						</p>
-					</div>
-					<div class="col-sm-4 skill-col">
-						<h4>SQL</h4>
-						<p class="skill-content">
-							<span class="skill-desc">Created Data Model for small web applications,</span>
-							<span class="skill-desc">Wrote SQL queries for fetching data from multiple tables to present
-								it in Jasper
-								Reports,</span>
-							<span class="skill-desc">Wrote simple Stored Procedures in SQL Server 2008</span>
-						</p>
-					</div>
-				</div>
-				<div class="row skill-row">
-					<div class="col-sm-4 skill-col">
-						<h4>PHP</h4>
-						<p class="skill-content">
-							<span class="skill-desc">Used PHP to handle server side processing and DB Operations,</span>
-							<a href="http://demo.webception.in/vishwas/twitter/" target="_blank"
-								rel="noreferrer noopener"><span class="skill-desc">Built a tool that does sentiment
-									analysis on Twitter Tweets using PHP open source
-									libraries,</span></a>
-							<span class="skill-desc">Customized WordPress Theme and Plug-in Functionalities</span>
-						</p>
-					</div>
-					<div class="col-sm-4 skill-col">
-						<h4>SEO/SMO</h4>
-						<p class="skill-content">
-							<span class="skill-desc">Active Contributor for Google Maps (Local Guides),</span>
-							<a href="http://webception.in" target="_blank" rel="noreferrer noopener"><span
-									class="skill-desc">Helped
-									Local Businesses by giving them a online presence using Google My
-									Business,</span></a>
-							<a href="http://webception.in" target="_blank" rel="noreferrer noopener"><span
-									class="skill-desc">Ran paid
-									Google AdWords/Social Media Ad campaign to increase client sales and website
-									conversions</span></a>
-						</p>
-					</div>
-					<div class="col-sm-4 skill-col">
-						<h4>Data Visualization</h4>
-						<p class="skill-content">
-							<a href="http://demo.webception.in/vishwas/twitter/" target="_blank"
-								rel="noreferrer noopener"><span class="skill-desc">Worked with Google Charts API for
-									showing the sentiment analysis results from
-									Twitter.</span></a>
-							<span class="skill-desc">Used Highcharts API within JasperSoft Reports to create interactive
-								charts and
-								dashboards.</span>
-						</p>
-					</div>
-				</div>
-				<div class="row skill-row">
-					<div class="col-sm-4 skill-col">
-						<h4>Python</h4>
-						<p class="skill-content">
-							<span class="skill-desc">Wrote object oriented console based application in python called
-								pyWallet as part
-								of the Infosys Training Curriculum to simulate a payment wallet</span>
-						</p>
-					</div>
-					<div class="col-sm-4 skill-col">
-						<h4>GoLang</h4>
-						<p class="skill-content">
-							<a href="http://nosconf.github.io/" target="_blank" rel="noreferrer noopener"><span
-									class="skill-desc">Gave a presentation on benefits of Go in NOS Conf
-									2016,</span><a />
-								<a href="https://github.com/GOOFS/go-goof-Talk" target="_blank"
-									rel="noreferrer noopener"><span class="skill-desc">Built console based Chat
-										Application called GoofTalk,</span></a>
-						</p>
-					</div>
-					<div class="col-sm-4 skill-col">
-						<h4>Graphic Design</h4>
-						<p class="skill-content">
-							<span class="skill-desc">Designed Logos, Web Ad Banners, Brochures and Business Cards in
-								Adobe
-								Photoshop,</span>
-						</p>
-					</div>
-				</div>
-				<div class="row skill-row">
-					<div class="col-sm-6 skill-col">
-						<h4>Tools and Platforms</h4>
-						<p class="skill-content-extra">
-							<span class="skill-desc">Windows,</span>
-							<span class="skill-desc">Linux distros like Ubuntu, Fedora and Backtrack,</span>
-							<span class="skill-desc">Git,</span>
-							<span class="skill-desc">Serverless Framework,</span>
-							<span class="skill-desc">AWS(Lambda, DynamoDB, API Gateway, S3),</span>
-							<span class="skill-desc">Slack,</span>
-							<span class="skill-desc">Trello,</span>
-							<span class="skill-desc">VS Code, </span>
-							<span class="skill-desc">Eclipse,</span>
-							<span class="skill-desc">Google Analytics,</span>
-							<span class="skill-desc">MS Office (Word, Excel, Powerpoint),</span>
-							<span class="skill-desc">Stackoverflow,</span>
-							<span class="skill-desc">WordPress,</span>
-							<span class="skill-desc">cPanel</span>
-						</p>
-					</div>
-					<div class="col-sm-6 skill-col">
-						<h4>Interests</h4>
-						<p class="skill-content-extra">
-							<span class="skill-desc">Photography,</span>
-							<span class="skill-desc">Blogging,</span>
-							<span class="skill-desc">Watching Sci-Fi Movies and TV Shows (Especially Marvel & DC
-								Comic Book based),</span>
-							<span class="skill-desc">Traveling,</span>
-							<span class="skill-desc">Solving Rubic(3x3) and Mirror cube,</span>
-							<span class="skill-desc">Reading Tech Blogs</span>
-						</p>
+			<section class="landing-section">
+				<div class="landing-overlay">
+					<h1> &gt; Vishwasa Navada K <span class="blinking-cursor">_</span></h1>
+					<p>Hi, I do WebDev and DataViz. I occasionally write on my blog and take very
+						good pictures.<br />
+					</p>
+					<div class="social-icons">
+						<a href="https://twitter.com/vishwasnavadak" target="_blank" rel="noreferrer noopener"
+							title="Twitter" aria-label="Twitter Profile">
+							<span class="fa fa-twitter fa-2x"></span>
+						</a>
+						<a href="http://linkedin.com/in/vishwasnavadak" target="_blank" rel="noreferrer noopener"
+							title="LinkedIn" aria-label="Linkedin Profile">
+							<span class="fa fa-linkedin fa-2x"></span>
+						</a>
+						<a href="https://github.com/vishwasnavadak/" target="_blank" rel="noreferrer noopener"
+							title="Github" aria-label="Github Profile">
+							<span class="fa fa-github-alt fa-2x"></span>
+						</a>
 					</div>
 				</div>
 			</section>
-			<hr class="separator" />
+
 			<section>
-				<h2 class="text-center"><u>Side Projects</u></h2>
+				<h2>Technical Skills</h2>
+				<div class="row skill-row">
+					Lorem Ipsum
+				</div>
 				<div class="row skill-row">
 					<div class="col-sm-6 skill-col">
-						<h4><a href="https://github.com/GOOFS/go-goof-Talk" target="_blank" rel="noreferrer noopener"
-								title="Github Repo">Goof Talk</a></h4>
+
+					</div>
+					<div class="col-sm-6 skill-col">
+
+					</div>
+				</div>
+			</section>
+			<section>
+				<h2 class="text-center">Side Projects</h2>
+				<div class="row skill-row">
+					<div class="col-sm-6 skill-col">
+						<h3><a href="https://github.com/GOOFS/go-goof-Talk" target="_blank" rel="noreferrer noopener"
+								title="Github Repo">Goof Talk</a></h3>
 						<p class="skill-content-extra">
 							Terminal based chat application built using Go which enables communication between computers
 							within the
@@ -233,8 +115,8 @@
 						</p>
 					</div>
 					<div class="col-sm-6 skill-col">
-						<h4><a href="http://demo.webception.in/vishwas/twitter/" target="_blank"
-								rel="noreferrer noopener" title="Project Demo">Twitter Sentiment Analyzer</a></h4>
+						<h3><a href="http://demo.webception.in/vishwas/twitter/" target="_blank"
+								rel="noreferrer noopener" title="Project Demo">Twitter Sentiment Analyzer</a></h3>
 						<p class="skill-content-extra">
 							Web application that fetches top tweets from twitter based on the search query
 							(hashtag/username) and
@@ -242,7 +124,7 @@
 						</p>
 					</div>
 					<div class="col-sm-6 skill-col">
-						<h4 title="Sorry no link">Workshop and Conference Management System</h4>
+						<h3 title="Sorry no link">Workshop and Conference Management System</h3>
 						<p class="skill-content-extra">
 							A web portal connecting all the departments of the college and Accounts section in which
 							staff enter the
@@ -253,8 +135,8 @@
 						</p>
 					</div>
 					<div class="col-sm-6 skill-col">
-						<h4> <a href="http://react-aws.vishwas.tech/todolist/" target="_blank" rel="noreferrer noopener"
-								title="Project Demo"> To-do List App </a></h4>
+						<h3> <a href="http://react-aws.vishwas.tech/todolist/" target="_blank" rel="noreferrer noopener"
+								title="Project Demo"> To-do List App </a></h3>
 						<p class="skill-content-extra">
 							To-do list web application built using React and Redux with the data is being fetched
 							from/stored to
@@ -262,25 +144,13 @@
 						</p>
 					</div>
 				</div>
-				<hr class="separator">
 				<div class="col-sm-12 ">
-					<h2>
-						<a href="https://twitter.com/vishwasnavadak" target="_blank" rel="noreferrer noopener"
-							title="Twitter" aria-label="Twitter Profile"><span
-								class="fa fa-twitter-square fa-2x"></span></a>
-						<a href="http://linkedin.com/in/vishwasnavadak" target="_blank" rel="noreferrer noopener"
-							title="LinkedIn" aria-label="Linkedin Profile"><span
-								class="fa fa-linkedin-square fa-2x"></span></a>
-						<a href="https://github.com/vishwasnavadak/" target="_blank" rel="noreferrer noopener"
-							title="Github" aria-label="Github Profile"><span
-								class="fa fa-github-square fa-2x"></span></a>
-						</h3>
+
 				</div>
 			</section>
 			<footer class="text-center">
 				<p> &copy; 2017-<span id="cur-year"></span> Vishwasa Navada K. Built with Bootstrap. Hosted on
 					Github.</p>
-		</div>
 		</div>
 
 		<!-- Global site tag (gtag.js) - Google Analytics -->
@@ -291,10 +161,12 @@
 			gtag('js', new Date());
 			gtag('config', 'UA-51455888-6');
 		</script>
-		<script src="assets/vendor/jquery/jquery.min.js"></script>
-		<script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-		<script src="scripts.js"></script>
-		<script src="assets/vendor/startbootstrap-clean-blog/js/clean-blog.min.js"></script>
+		<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+			integrity="sha256-pasqAKBDmFT4eHoN2ndd6lN370kFiGUFyTiUHWhU7k8=" crossorigin="anonymous"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js"
+			integrity="sha384-xrRywqdh3PHs8keKZN+8zzc5TX0GRTLCcmivcbNJWm2rs5C8PRhcEn3czEjhAO9o"
+			crossorigin="anonymous"></script>
+		<script src="/assets/scripts.js"></script>
 	</body>
 
 </html>

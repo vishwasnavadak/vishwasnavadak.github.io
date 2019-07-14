@@ -1,0 +1,151 @@
+/* --------------------------------------------------------
+Style Sheet for vishwas.tech
+
+version: 2
+author: Vishwasa Navada K
+email: hi@vishwas.tech
+website: https://vishwas.tech
+----------------------------------------------------------*/
+
+/*------------ Font Imports   s   ------------*/
+
+@import url("https://fonts.googleapis.com/css?family=Exo&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Jockey+One&display=swap");
+
+/*------------ Variables ------------*/
+:root {
+  --font-primary: #ffffff;
+  --font-secondary: #eeeeee;
+  --font-ternary: #000000;
+  --background: #101010;
+  --background-nav: #161616;
+  --background-ternary: rgba(179, 179, 179, 0.3);
+}
+/*------------ Override Defaults ------------*/
+#body {
+  width: 100vw;
+  margin: 0 auto;
+  vertical-align: middle;
+  text-align: center;
+  color: var(--font-primary);
+  background: var(--background);
+  font-family: "Exo", sans-serif;
+}
+#body h1 {
+  font-size: 2.5em;
+  font-family: "Jockey One", sans-serif;
+}
+#body h2 {
+  font-size: 1.5em;
+}
+#body h3 {
+  font-size: 1.3em;
+}
+#body h4 {
+  font-size: 1.3em;
+}
+footer {
+  font-size: 0.8em;
+}
+section a {
+  text-decoration: none;
+  color: var(--font-secondary);
+  cursor: pointer;
+}
+section a:hover {
+  color: var(--font-primary);
+  text-decoration: none;
+}
+.row {
+  margin: 0 auto !important;
+}
+
+/*------------ Custom CSS ------------*/
+section {
+  min-height: 100vh;
+  padding: 15px;
+}
+.social-icons a {
+  color: var(--font-ternary);
+  padding: 5px 10px;
+}
+.landing-section {
+  color: var(--font-ternary);
+  background-image: url("/assets/img/bg.jpeg");
+  background-attachment: fixed;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.landing-overlay {
+  max-width: 95%;
+  padding: 15px 20px;
+  margin: 0 auto;
+  position: relative;
+  background: var(--background-ternary);
+}
+.landing-overlay p {
+  font-size: 1.3em;
+}
+/*------------ External CSS ------------*/
+/* Nav CSS from jekyll-theme-clean-blog */
+#mainNav {
+  background-color: var(--background-nav);
+  color: var(--font-primary);
+}
+#mainNav .navbar-nav > li.nav-item > a {
+  padding: 10px 20px;
+  color: var(--font-primary);
+}
+#mainNav .navbar-toggler {
+  font-size: 12px;
+  font-weight: 800;
+  padding: 13px;
+  color: var(--font-primary);
+  border-color: var(--font-secondary);
+  text-transform: uppercase;
+}
+#mainNav .navbar-nav > li.nav-item > a {
+  font-size: 12px;
+  font-weight: 800;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.blinking-cursor {
+  color: var(--font-ternary);
+  -webkit-animation: 1s blink step-end infinite;
+  -moz-animation: 1s blink step-end infinite;
+  -ms-animation: 1s blink step-end infinite;
+  animation: 1s blink step-end infinite;
+}
+@keyframes blink {
+  from,
+  to {
+    color: transparent;
+  }
+  50% {
+    color: var(--font-ternary);
+  }
+}
+
+@-moz-keyframes blink {
+  from,
+  to {
+    color: transparent;
+  }
+  50% {
+    color: var(--font-ternary);
+  }
+}
+
+@-webkit-keyframes blink {
+  from,
+  to {
+    color: transparent;
+  }
+  50% {
+    color: var(--font-ternary);
+  }
+}
