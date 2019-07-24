@@ -15,13 +15,13 @@ website: https://vishwas.tech
 /*------------ Variables ------------*/
 :root {
   --font-primary: #ffffff;
-  --font-secondary: #eeeeee;
+  --font-secondary: #dddddd;
   --font-ternary: #000000;
   --background: #101010;
   --background-nav: #161616;
   --background-ternary: rgba(179, 179, 179, 0.3);
 }
-/*------------ Override Defaults ------------*/
+/*------------ Override/Normalize Defaults ------------*/
 #body {
   width: 100vw;
   margin: 0 auto;
@@ -32,11 +32,12 @@ website: https://vishwas.tech
   font-family: "Exo", sans-serif;
 }
 #body h1 {
-  font-size: 2.5em;
+  font-size: 2.6em;
   font-family: "Jockey One", sans-serif;
 }
 #body h2 {
-  font-size: 1.5em;
+  font-size: 1.6em;
+  margin-bottom: 15px;
 }
 #body h3 {
   font-size: 1.4em;
@@ -45,7 +46,9 @@ website: https://vishwas.tech
   font-size: 1.3em;
 }
 #body p {
-  font-size: 1.1em;
+  font-size: 1.2em;
+  color: var(--font-secondary);
+  margin-bottom: 25px;
 }
 footer {
   font-size: 0.8em;
@@ -91,9 +94,6 @@ section {
 .more-button {
   width: 95vw;
   align-self: flex-end;
-}
-#intro {
-  font-size: 1.3em;
 }
 
 @media (max-width: 700px) {
