@@ -15,7 +15,7 @@ website: https://vishwas.tech
 /*------------ Variables ------------*/
 :root {
   --font-primary: #ffffff;
-  --font-secondary: #dddddd;
+  --font-secondary: #bbbbbb;
   --font-ternary: #000000;
   --background: #101010;
   --background-nav: #161616;
@@ -36,17 +36,17 @@ website: https://vishwas.tech
   font-family: "Jockey One", sans-serif;
 }
 #body h2 {
-  font-size: 1.6em;
-  margin-bottom: 15px;
+  font-size: 1.8em;
+  margin: 15px auto;
 }
 #body h3 {
-  font-size: 1.4em;
+  font-size: 1.6em;
 }
 #body h4 {
   font-size: 1.3em;
 }
 #body p {
-  font-size: 1.2em;
+  font-size: 1.3em;
   color: var(--font-secondary);
   margin-bottom: 25px;
 }
@@ -96,6 +96,26 @@ section {
   align-self: flex-end;
 }
 
+hr.separator {
+  width: 50%;
+  border: 0;
+  height: 1px;
+  margin: 15px auto;
+  background-color: var(--background-ternary);
+}
+a.btn {
+  margin: 5px;
+  padding: 3px 6px;
+  border-radius: 0;
+  color: var(--font-secondary);
+  background-color: var(--background);
+  border: 1px solid var(--font-secondary);
+}
+a.btn:hover {
+  color: var(--background);
+  background-color: var(--font-secondary);
+  border: 1px solid var(--background);
+}
 @media (max-width: 700px) {
   .landing-section {
     background-image: url("/assets/img/bg-mobile.jpeg");
