@@ -2,12 +2,13 @@
 Style Sheet for vishwas.tech
 
 version: 2
+license: MIT
 author: Vishwasa Navada K
 email: hi@vishwas.tech
 website: https://vishwas.tech
 ----------------------------------------------------------*/
 
-/*------------ Font Imports   s   ------------*/
+/*------------ Font Imports   ------------*/
 
 @import url("https://fonts.googleapis.com/css?family=Exo&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Jockey+One&display=swap");
@@ -21,7 +22,13 @@ website: https://vishwas.tech
   --background-nav: #161616;
   --background-ternary: rgba(179, 179, 179, 0.3);
 }
-/*------------ Override/Normalize Defaults ------------*/
+/*------------ Override Defaults ------------*/
+html {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  scroll-behavior: smooth;
+}
 #body {
   width: 100vw;
   margin: 0 auto;
@@ -43,7 +50,8 @@ website: https://vishwas.tech
   font-size: 1.6em;
 }
 #body h4 {
-  font-size: 1.3em;
+  font-size: 1.2em;
+  color: var(--font-secondary);
 }
 #body p {
   font-size: 1.3em;
@@ -53,12 +61,12 @@ website: https://vishwas.tech
 footer {
   font-size: 0.8em;
 }
-section a {
+a {
   text-decoration: none;
   color: var(--font-secondary);
   cursor: pointer;
 }
-section a:hover {
+a:hover {
   color: var(--font-primary);
   text-decoration: none;
 }
@@ -76,11 +84,22 @@ section {
   padding: 5px;
   margin: 2px 5px;
 }
+.social-icons-white a {
+  color: var(--font-secondary);
+  padding: 5px;
+  margin: 2px 5px;
+}
 .landing-section {
   color: var(--font-ternary);
   background-image: url("/assets/img/bg.jpeg");
   background-attachment: fixed;
   background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.section-404 {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -92,10 +111,16 @@ section {
   background: var(--background-ternary);
 }
 .more-button {
+  position: absolute;
+  bottom: 10px;
   width: 95vw;
-  align-self: flex-end;
+  padding: 15px;
 }
-
+.more-button a {
+  font-size: 1.3em;
+  font-weight: bold;
+  color: var(--font-ternary);
+}
 hr.separator {
   width: 50%;
   border: 0;

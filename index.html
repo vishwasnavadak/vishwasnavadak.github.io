@@ -16,8 +16,8 @@
 		<meta name="og:title" content="Vishwasa Navada K" />
 		<meta name="og:description" content="My portfolio page!" />
 		<meta name="og:image" content="https://vishwas.tech/img/vishwasnavadak.png" />
-		<meta name="og:url" content="http://vishwas.tech/" />
-		<meta name="og:site_name" content="Vishwas Navada K" />
+		<meta name="og:url" content="https://vishwas.tech/" />
+		<meta name="og:site_name" content="Vishwasa Navada K" />
 		<meta name="og:type" content="website" />
 		<!-- Twitter Card Meta Tags -->
 		<meta name="twitter:card" content="summary" />
@@ -28,11 +28,9 @@
 
 		<link rel="icon" type="image/png" sizes="32x32" href="/assets/icons/favicon-32x32.png">
 		<link rel="icon" type="image/png" sizes="16x16" href="/assets/icons/favicon-16x16.png">
-		<link rel="manifest" href="/assets/site.webmanifest">
-		<link rel="mask-icon" href="/assets/icons/safari-pinned-tab.svg" color="#444444">
-		<link rel="stylesheet" href="/assets/style.css">
 		<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet"
 			integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+		<link rel="stylesheet" href="/assets/style.css">
 		<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
 			integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 	</head>
@@ -62,9 +60,10 @@
 				</ul>
 				</ul>
 			</div>
+
 		</nav>
-		<div class="body-container">
-			<section class="landing-section">
+		<div>
+			<section class="landing-section" id="landing">
 				<div class="landing-overlay">
 					<h1> &gt; Vishwasa Navada K <span class="blinking-cursor">_</span></h1>
 					<h2>Geek. Ambivert. Wanderlust.</h2>
@@ -77,7 +76,7 @@
 							title="Reddit" aria-label="Reddit Profile">
 							<span class="fa fa-reddit-alien fa-2x"></span>
 						</a>
-						<a href="http://linkedin.com/in/vishwasnavadak" target="_blank" rel="noreferrer noopener"
+						<a href="https://linkedin.com/in/vishwasnavadak" target="_blank" rel="noreferrer noopener"
 							title="LinkedIn" aria-label="Linkedin Profile">
 							<span class="fa fa-linkedin fa-2x"></span>
 						</a>
@@ -91,15 +90,18 @@
 						</a>
 					</div>
 				</div>
-				<div class="more-button">More</div>
+				<div class="more-button"><a href="/#about">ABOUT<br /><span class="fa fa
+							fa-angle-double-down fa-2x"></span></a></div>
+
 			</section>
 
-			<section>
+			<section id="about">
 				<h2>ABOUT</h2>
 				<hr class="separator" />
 				<p>I am a software developer currently working on JavaScript and Tableau. I like learning and
 					experimenting with new technologies as they come. I try to build things that save me from manual
-					efforts. I am an open-source enthusiast and a dark mode everything person.</p>
+					efforts. I am an open-source enthusiast and a dark mode everything person. I occasionally write on
+					my blog about new technologies, coding, how-tos, travel etc. </p>
 				<br />
 				<h3>Tech I love to work with</h3>
 				<p>JavaScript (React, NodeJS), Python, Serverless, AWS. </p>
@@ -107,28 +109,24 @@
 				<h3>Besides Tech</h3>
 				<p>
 					I am a cinephile with love towards Sci-Fi, Murder Mystery and Heist movies. I sometimes
-					pointlessly binge watch magic shows on YouTube. I love travelling and photography (Yes, the
+					pointlessly binge-watch magic shows on YouTube. I also love traveling and photography (Yes, the
 					background image you see above is a self-timed shot of me).
 				</p>
 				<br />
-				<p>Want to talk? drop me a mail: hi@vishwas.tech</p>
+				<p>Want to talk? drop me a mail: <a
+						href="mailto:hi@vishwas.tech?subject=Want%20to%20talk%20about&body=Hi%20Vishwasa,%0D%0A%0D%0AThanks%20and%20Regards,%0D%0A"
+						target="_blank" rel="noreferrer noopener" title="Send email">hi@vishwas.tech</a>
+				</p>
+
 			</section>
 
-			<section>
+			<section id="projects">
 				<h2>PROJECTS</h2>
 				<hr class="separator" />
 				<div class="row">
 					<div class="col-sm-6">
-						<h3>Goof Talk</h3>
-						<p>
-							Terminal based chat application built using Go which enables communication between
-							computers within the local network. <br />
-							<a class="btn" href="https://github.com/GOOFS/go-goof-Talk" target="_blank"
-								rel="noreferrer noopener" title="Github Repository">Github</a>
-						</p>
-					</div>
-					<div class="col-sm-6">
 						<h3>YouTube Infinite Search</a></h3>
+						<h4>(React)</h4>
 						<p>
 							YouTube Search App that keeps fetching search results until you get tired scrolling.<br />
 							<a class="btn" href="https://github.com/vishwasnavadak/youtube-search" target="_blank"
@@ -136,33 +134,43 @@
 						</p>
 					</div>
 					<div class="col-sm-6">
-						<h3>Twitter Sentiment Analyzer</a></h3>
+						<h3>Goof Talk</h3>
+						<h4>(Go)</h4>
 						<p>
-							Web application that fetches top tweets from twitter based on the search query
+							Terminal based chat application built using Go which enables communication between
+							computers within the local network. <br />
+							<a class="btn" href="https://github.com/GOOFS/go-goof-Talk" target="_blank"
+								rel="noreferrer noopener" title="Github Repository">Github</a>
+						</p>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-sm-6">
+						<h3>Workshop and Conference Management System</h3>
+						<h4>(PHP, JQuery)</h4>
+						<p>
+							A web portal connecting all the departments of the college in which
+							staff enter the
+							details of the workshop and conferences that they have conducted or attended for efficient
+							bookkeeping.
+						</p>
+					</div>
+					<div class="col-sm-6">
+						<h3>Twitter Sentiment Analyzer</a></h3>
+						<h4>(PHP, Google Charts)</h4>
+						<p>
+							A web application that fetches top tweets from twitter based on the search query
 							(hashtag/username) and categorizes them into positive, negative and neutral tweets.<br />
 							<a class="btn" href="https://github.com/vishwasnavadak/tweet-sentiment-analyzer"
 								target="_blank" rel="noreferrer noopener" title="Github Repository">Github</a>
 						</p>
 					</div>
-					<div class="col-sm-6">
-						<h3>Workshop and Conference Management System</h3>
-						<p>
-							A web portal connecting all the departments of the college in which
-							staff enter the
-							details of the workshop and conferences that they have conducted or attended for efficient
-							bookkeeping. Currently being used by NMAM Institute of Technology,
-							Nitte.
-						</p>
-					</div>
-
 				</div>
-				<div class="col-sm-12 ">
 
-				</div>
 			</section>
-			<footer class="text-center">
-				<p> &copy; 2017-<span id="cur-year"></span> Vishwasa Navada K. Built with Bootstrap. Hosted on
-					Github.</p>
+			<footer>
+				<p> &copy; 2017-<span id="cur-year"></span> Vishwasa Navada K. </p>
+			</footer>
 		</div>
 
 		<!-- Global site tag (gtag.js) - Google Analytics -->
