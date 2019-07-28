@@ -1,0 +1,210 @@
+/* --------------------------------------------------------
+Style Sheet for vishwas.tech
+
+version: 2
+license: MIT
+author: Vishwasa Navada K
+email: hi@vishwas.tech
+website: https://vishwas.tech
+----------------------------------------------------------*/
+
+/*------------ Font Imports   ------------*/
+
+@import url("https://fonts.googleapis.com/css?family=Exo:400,700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Jockey+One&display=swap");
+
+/*------------ Variables ------------*/
+:root {
+  --font-primary: #ffffff;
+  --font-secondary: #bbbbbb;
+  --font-ternary: #000000;
+  --background: #101010;
+  --background-nav: #161616;
+  --background-ternary: rgba(179, 179, 179, 0.3);
+}
+/*------------ Override Defaults ------------*/
+html {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 15px;
+  scroll-behavior: smooth;
+}
+#body {
+  width: 100vw;
+  margin: 0 auto;
+  vertical-align: middle;
+  text-align: center;
+  color: var(--font-primary);
+  background: var(--background);
+  font-family: "Exo", sans-serif;
+}
+#body h1 {
+  font-size: 2.6rem;
+  font-family: "Jockey One", sans-serif;
+}
+#body h2 {
+  font-size: 1.8rem;
+  margin: 15px auto;
+}
+#body h3 {
+  font-size: 1.6rem;
+}
+#body h4 {
+  font-size: 1.2rem;
+  color: var(--font-secondary);
+}
+#body p {
+  font-size: 1.3rem;
+  color: var(--font-secondary);
+  margin-bottom: 15px;
+}
+footer {
+  font-size: 1rem;
+}
+a {
+  text-decoration: none;
+  color: var(--font-secondary);
+  cursor: pointer;
+}
+a:hover {
+  color: var(--font-primary);
+  text-decoration: none;
+}
+.row {
+  margin: 15px auto !important;
+}
+
+/*------------ Custom CSS ------------*/
+section {
+  min-height: 100vh;
+  padding: 15px;
+}
+.social-icons a {
+  color: var(--font-ternary);
+  padding: 5px;
+  margin: 2px 5px;
+}
+.social-icons-white a {
+  color: var(--font-secondary);
+  padding: 5px;
+  margin: 2px 5px;
+}
+.landing-section {
+  color: var(--font-ternary);
+  background-image: url("/assets/img/bg.jpeg");
+  background-attachment: fixed;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.section-404 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.landing-overlay {
+  width: 95vw;
+  padding: 15px;
+  background: var(--background-ternary);
+}
+.more-button {
+  position: absolute;
+  bottom: 10px;
+  width: 95vw;
+  padding: 15px;
+}
+.more-button a {
+  font-size: 1.3rem;
+  font-weight: bold;
+  color: var(--font-ternary);
+}
+hr.separator {
+  width: 50%;
+  border: 0;
+  height: 1px;
+  margin: 15px auto 20px auto;
+  background-color: var(--background-ternary);
+}
+
+a.btn {
+  margin: 5px;
+  padding: 3px 6px;
+  border-radius: 0;
+  color: var(--font-secondary);
+  background-color: var(--background);
+  border: 1px solid var(--font-secondary);
+}
+a.btn:hover {
+  color: var(--background);
+  background-color: var(--font-secondary);
+  border: 1px solid var(--background);
+}
+@media (max-width: 700px) {
+  .landing-section {
+    background-image: url("/assets/img/bg-mobile.jpeg");
+  }
+}
+
+/*------------ External CSS ------------*/
+/* Nav CSS from jekyll-theme-clean-blog */
+#mainNav {
+  background-color: var(--background-nav);
+  color: var(--font-primary);
+  font-size: 1rem;
+  border: 0;
+}
+#mainNav .navbar-nav > li.nav-item > a {
+  padding: 10px 20px;
+  color: var(--font-primary);
+}
+#mainNav .navbar-toggler {
+  padding: 13px;
+  color: var(--font-primary);
+  border-color: var(--font-secondary);
+  text-transform: uppercase;
+}
+#mainNav .navbar-nav > li.nav-item > a {
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.blinking-cursor {
+  color: var(--font-ternary);
+  -webkit-animation: 1s blink step-end infinite;
+  -moz-animation: 1s blink step-end infinite;
+  -ms-animation: 1s blink step-end infinite;
+  animation: 1s blink step-end infinite;
+}
+@keyframes blink {
+  from,
+  to {
+    color: transparent;
+  }
+  50% {
+    color: var(--font-ternary);
+  }
+}
+
+@-moz-keyframes blink {
+  from,
+  to {
+    color: transparent;
+  }
+  50% {
+    color: var(--font-ternary);
+  }
+}
+
+@-webkit-keyframes blink {
+  from,
+  to {
+    color: transparent;
+  }
+  50% {
+    color: var(--font-ternary);
+  }
+}
