@@ -10,7 +10,7 @@ website: https://vishwas.tech
 
 /*------------ Font Imports   ------------*/
 
-@import url("https://fonts.googleapis.com/css?family=Exo&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Exo:400,700&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Jockey+One&display=swap");
 
 /*------------ Variables ------------*/
@@ -27,6 +27,7 @@ html {
   margin: 0;
   padding: 0;
   border: 0;
+  font-size: 15px;
   scroll-behavior: smooth;
 }
 #body {
@@ -39,27 +40,27 @@ html {
   font-family: "Exo", sans-serif;
 }
 #body h1 {
-  font-size: 2.6em;
+  font-size: 2.6rem;
   font-family: "Jockey One", sans-serif;
 }
 #body h2 {
-  font-size: 1.8em;
+  font-size: 1.8rem;
   margin: 15px auto;
 }
 #body h3 {
-  font-size: 1.6em;
+  font-size: 1.6rem;
 }
 #body h4 {
-  font-size: 1.2em;
+  font-size: 1.2rem;
   color: var(--font-secondary);
 }
 #body p {
-  font-size: 1.3em;
+  font-size: 1.3rem;
   color: var(--font-secondary);
-  margin-bottom: 25px;
+  margin-bottom: 15px;
 }
 footer {
-  font-size: 0.8em;
+  font-size: 1rem;
 }
 a {
   text-decoration: none;
@@ -71,7 +72,7 @@ a:hover {
   text-decoration: none;
 }
 .row {
-  margin: 0 auto !important;
+  margin: 15px auto !important;
 }
 
 /*------------ Custom CSS ------------*/
@@ -117,7 +118,7 @@ section {
   padding: 15px;
 }
 .more-button a {
-  font-size: 1.3em;
+  font-size: 1.3rem;
   font-weight: bold;
   color: var(--font-ternary);
 }
@@ -128,6 +129,7 @@ hr.separator {
   margin: 15px auto 20px auto;
   background-color: var(--background-ternary);
 }
+
 a.btn {
   margin: 5px;
   padding: 3px 6px;
@@ -152,7 +154,8 @@ a.btn:hover {
 #mainNav {
   background-color: var(--background-nav);
   color: var(--font-primary);
-  font-size: 1em;
+  font-size: 1rem;
+  border: 0;
 }
 #mainNav .navbar-nav > li.nav-item > a {
   padding: 10px 20px;
