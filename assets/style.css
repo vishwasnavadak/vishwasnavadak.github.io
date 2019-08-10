@@ -21,13 +21,14 @@ website: https://vishwas.tech
   --background: #101010;
   --background-nav: #161616;
   --background-ternary: rgba(179, 179, 179, 0.3);
+  --base-font: 15px;
 }
 /*------------ Override Defaults ------------*/
 html {
   margin: 0;
   padding: 0;
   border: 0;
-  font-size: 15px;
+  font-size: var(--base-font);
   scroll-behavior: smooth;
 }
 #body {
