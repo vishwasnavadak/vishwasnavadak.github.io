@@ -53,7 +53,6 @@ html {
 }
 #body h4 {
   font-size: 1.2rem;
-  color: var(--font-secondary);
 }
 #body p {
   font-size: 1.3rem;
@@ -151,7 +150,29 @@ a.btn:hover {
     background-image: url("/assets/img/bg-mobile.jpeg");
   }
 }
-
+/*------------ Custom CSS - Uses Page ------------*/
+#uses-page {
+  text-align: left;
+}
+#uses-page h1 {
+  font-size: 3rem;
+  text-align: left;
+  padding: 50px 20px;
+  background: url(/assets/img/uses_bg.jpeg);
+  background-size: cover;
+  min-height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+}
+#uses-page h1 > span {
+  padding: 10px;
+  background: var(--background-ternary);
+}
+#uses-page ul.gears {
+  list-style: none;
+  padding: 10px;
+}
 /*------------ External CSS ------------*/
 /* Nav CSS from jekyll-theme-clean-blog */
 #mainNav {
